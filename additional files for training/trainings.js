@@ -3,32 +3,28 @@
 //     if (error) {
 //         throw error;
 //         console.log(error);
-//         //return false;
 //     }    
 //     console.log(data);
 // })
+
+
 // const fs = require("fs/promises");
 // fs.readFile("text.txt", "utf-8")
 //     .then(data=>console.log(data))
 //     .catch(error=>console.log(error.message))
 
-// const fs = require("fs/promises");
 
+// const fs = require("fs/promises");
 // const readFile = async(filePath) => {
 //     try {
 //         const data = await fs.readFile(filePath,"utf-8");
 //         console.log(data);
 //     }
 //     catch(error) {
-//         console.log(error);
-//         // error.mesage = "file wasn't read";
-//         // throw error;
+//         error.mesage = "file wasn't read";
 //     }
 // }
-//     readFile("text.txt");
-
-
-
+// readFile("text.txt");
 
 
 // const fs = require("fs/promises");
@@ -49,13 +45,13 @@
   
     // (async() => {
     //     try {
-    //         // const result = await fileOperation(file);
-    //         // console.log(result);
-    //         // const result = await fileOperation(file, "add", "welcome to nodejs");
-    //         // console.log("added data");
-    //         // await fileOperation(file, "add", "\nwelcome to nodejs");
-    //         // console.log("added data");
-    //         await fileOperation(file, "rewrite", "Sayonara2:)");
+            // const result = await fileOperation(file);
+            // console.log(result);
+            // const result = await fileOperation(file, "add", "welcome to nodejs");
+            // console.log("added data");
+            // await fileOperation(file, "add", "\nwelcome to nodejs");
+            // console.log("added data");
+    //         await fileOperation(file, "rewrite", "Sayonara1:)");
     //         console.log("rewrited data");
     //     }
     //     catch(error){
@@ -71,13 +67,13 @@
 
 
 // const contactOperations = require("./db/contactsOperations/index");    
-// /*
-// 1. Считать все товари
-// 2. Считать товар по ид
-// 3. Добавить товар
-// 4. Обновить товар по ид
-// 5. Удалить товар по ид
-// */
+/*
+1. Считать все товари
+2. Считать товар по ид
+3. Добавить товар
+4. Обновить товар по ид
+5. Удалить товар по ид
+*/
 // const id = 11;
 // const delId = 11;
 // const newData = {
